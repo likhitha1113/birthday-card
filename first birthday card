@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        .list ul li {
+            display: inline-block;
+            margin-top: 0%;
+            padding: 5px 15px;
+            border: 2px solid black;
+            border-radius: 30px;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        h2 {
+            padding: 3px;
+            /* margin-top: 50%;*/
+        }
+        .btm{
+            display: inline-block;
+            margin-left: 30%;
+            margin-top: 10px;
+            padding: 5px 15px;
+            border: 2px solid rgb(40, 15, 228);
+            border-radius: 30px;
+            background-color: rgb(181, 225, 235);
+            font-size: 20px;
+            text-align: center;
+        }
+        .main{
+            width: 30vw;
+            height: auto;
+            padding: 10px;
+            margin: 20px;
+            border: 2px solid black;
+        }
+        img{
+            width: 30vw;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+card.png
+
+<body>
+    <div class="main">
+
+    <img src="https://th.bing.com/th/id/OIP.QwcAvSnj_aJeDbsFwGQ1hgAAAA?rs=1&pid=ImgDetMain" alt="">
+
+    <span class="list">
+        <ul>
+            <li>birthday</li>
+            <li>wishes</li>
+        </ul>
+
+    </span>
+    <h2>happy birthday</h2>
+    <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod possimus quae reiciendis quaerat magnam nemo quis
+        doloribus, quasi ut soluta animi explicabo in a culpa dolor recusandae quos asperiores unde!
+    </div>
+    <span class="btm">
+        read more
+    </span>
+</div>
+</body>
+
+</html>
